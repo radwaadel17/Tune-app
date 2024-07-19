@@ -1,16 +1,16 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:tune_app_project/Componets/Category.dart';
 import 'package:tune_app_project/Members/TuneClass.dart';
+
 
 
 class TonePage extends StatelessWidget {
   const TonePage({super.key});
   final List<TuneClass> TuneList = const [
     TuneClass(
+      //assets\sounds\note1.wav
       sound: 'sounds/note1.wav', 
       color: Colors.red,
-      
       ),
       TuneClass(
       sound: 'sounds/note2.wav', 
@@ -29,35 +29,27 @@ class TonePage extends StatelessWidget {
       color: Color.fromARGB(255, 53, 158, 134),
       ),
       TuneClass(
-      sound: 'sounds/note6 (1).wav', 
+      sound: 'sounds/note6.wav', 
       color: Colors.blue,
       ),
        TuneClass(
       sound: 'sounds/note7.wav', 
       color: Colors.purple ,
       ),
+      
   ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 31, 32, 33),
-        title: Center(
+        title: const Center(
           child: Text('Flutter Tune'),
         ),
       ),
       body: Column(
-        children: GetList(TuneList),
+        children: TuneList.map((e) => ContainerMethod(obj: e)).toList(),
       ),
     );
   }
-}
-
-List<Widget> GetList(List<TuneClass> list){
- List<Widget> ListOfWidgets =[] ;
- for(int i = 0 ; i < list.length ; i++ ){
-  ListOfWidgets.add(ContainerMethod(obj: list[i])) ;
- }
- return ListOfWidgets ;
-
 }

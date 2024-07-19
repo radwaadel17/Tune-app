@@ -5,19 +5,18 @@ import 'package:audioplayers/audioplayers.dart';
 
 class ContainerMethod extends StatelessWidget {
   const ContainerMethod({super.key ,required this.obj});
-   final TuneClass ? obj ;
+   final TuneClass  obj ;
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-     onTap: () {
-     final player = AudioPlayer();
-     player.play(DeviceFileSource(obj!.sound)); 
-      },
-        child : Container(
-                height: 100.4 ,
-                color: obj!.color,
-              ),
-      
+    return Expanded(
+      child: GestureDetector(
+       onTap: () {
+         obj.playSound();
+        },
+          child : Container(
+                  color: obj.color,
+                ),
+      ),
     );
   }
 }
