@@ -5,7 +5,7 @@ import 'package:audioplayers/audioplayers.dart';
 
 
 void main(){
-  runApp(HomePage());
+  runApp(const HomePage());
 }
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: TonePage(),
     );
