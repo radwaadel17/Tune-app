@@ -5,6 +5,7 @@
     <img src="https://img.shields.io/badge/Tune-Discover%20Music-orange?style=for-the-badge">
   </a>
 </p>
+
 ## About Tune
 
 Tune is a cutting-edge Flutter application that brings a diverse range of music to your fingertips. Whether you're in the mood for classical melodies, upbeat pop, or relaxing jazz, Tune has something for every musical taste.
