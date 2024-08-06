@@ -1,4 +1,3 @@
-# Tune-app
 <h1 align="center">Welcome to Tune! 🎵</h1>
 
 <p align="center">
@@ -8,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-png-vectors%2Fmusic-logo&psig=AOvVaw3nHYGJzMyo_VIzxi2XQmpn&ust=1723044182133000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJDcrfHV4IcDFQAAAAAdAAAAABAJ" alt="Tune Logo" width="200">
+  <img src="https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-musical-note-logo-vector-template-png-image_1777530.jpg" alt="Tune Logo" width="200">
 </p>
 
 ## About Tune
