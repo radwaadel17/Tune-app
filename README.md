@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://via.placeholder.com/200x100.png?text=Tune+Logo" alt="Tune Logo" width="200">
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-png-vectors%2Fmusic-logo&psig=AOvVaw3nHYGJzMyo_VIzxi2XQmpn&ust=1723044182133000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJDcrfHV4IcDFQAAAAAdAAAAABAJ" alt="Tune Logo" width="200">
 </p>
 
 ## About Tune
