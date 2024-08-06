@@ -1,5 +1,6 @@
 <h1 align="center">Welcome to Tune! 🎵</h1>
 
+
 <p align="center">
   <a href="https://github.com/rody_adel/tune_app">
     <img src="https://img.shields.io/badge/Tune-Discover%20Music-orange?style=for-the-badge">
