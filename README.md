@@ -6,9 +6,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-musical-note-logo-vector-template-png-image_1777530.jpg" alt="Tune Logo" width="200">
-</p>
 
 ## About Tune
 
